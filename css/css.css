@@ -1,0 +1,1770 @@
+body{
+	background-color: #333237
+}
+
+/*navbar*/
+.bg-light {
+    background-color: #f8f9fa00 !important;
+}
+
+.navbar-brand img{
+	height: 21px;
+	width: 75px
+}
+
+
+.navbar-nav .nav-item .nav-link{
+	
+	color: #8e8c8c
+}
+
+
+.navbar-nav .nav-item .nav-link:hover{
+	
+	color: #de6313
+}
+.navbar-nav .nav-item .nav-link:active{
+	
+	color: #de6313
+}
+
+.actiiive{
+	
+	color: #de6313
+}
+
+
+.navbar-text svg{
+	color: #fff;
+	margin-left: 10px;
+}
+
+.navbar-toggler{
+	
+border: 1px solid #de6313
+	
+}
+
+
+.navbar-toggler {
+border: 1px solid #de6313!important;
+	border-color: #de6313;
+	
+	
+}
+
+
+
+
+
+
+.container{
+	margin-left: 30px;
+    margin-right: 5px;
+}
+
+.content{
+	margin-top: 40px;
+	position: relative
+}
+.leftside{
+	
+	position: relative;
+
+}
+
+
+
+.types{
+	
+position: absolute;
+align-items: center;
+place-items: center;
+text-align: inherit;
+left: 23%;
+
+
+}
+
+
+.foodkind{
+height: 100px;
+width: 300px;
+background-color: #de6313;
+border-radius: 40px;
+margin-bottom: 20px
+}
+
+.foodkind2{
+height: 100px;
+width: 300px;
+background-color: #417028;
+border-radius: 40px;
+margin-bottom: 20px
+}
+
+.foodgallery{
+margin-left: 0px;	
+-webkit-transition:all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out;
+-o-transition:all .5s ease-in-out;
+transform:all .5s ease-in-out;
+position: relative;
+	
+	
+
+    place-items: center normal;
+	cursor: pointer
+}
+
+
+.hs{
+	left: 10%
+}
+
+.selected{
+	left: 10%
+}
+
+
+
+
+.foodkindcon{
+	
+    clear: right;
+    width: 400px;
+    float: left;
+	margin-left: 40px
+}
+
+
+
+
+
+
+
+.theimage{
+	
+height: 250px;
+width: 250px;
+
+float: left;
+clear: right;
+
+display: grid;
+place-items: center
+}
+.imgbg{
+	
+    height: 230px;
+    width: 230px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 116px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 30px;
+	
+}
+
+
+
+.imgbg img{
+    height: 255px;
+    width: 255px;
+    max-height: 255px;
+    max-width: 255px;
+
+}
+
+
+.meal2div{
+	visibility: hidden;
+
+}
+.meal3div{
+	visibility: hidden;
+
+}
+
+
+.meal4div{
+	visibility: hidden;
+	
+
+}
+
+
+
+
+
+.carousel-inner{
+    margin-top: 5px;
+    position: absolute;
+    left: 390px;
+    top: 38px;
+    float: right;
+    clear: left;
+    width: 400px;
+    text-align: left;
+}
+
+
+
+.carousel-item h2{
+	color: #de6313;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px
+
+}
+
+.carousel-item h5{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300
+	
+}
+
+
+.carousel-item p{
+	
+	color: #ada8a8
+}
+
+
+
+
+
+.foodgallery img{
+	width: 65px;
+	height: 65px;
+	margin-left: 20px;
+}
+
+.foodgallery h5{
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px
+}
+
+.foodgallery p{
+	color: #d6d1d1
+	
+}
+
+.meal3 .heart path{
+	color: #de6313
+}
+
+.meal3 .heart{
+	height: 30px;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: grid;
+    place-content: center;
+	margin-right: 10px;
+}
+
+.meal1 .heart path{
+	color: #de6313
+}
+
+
+.meal1 .heart{
+	height: 30px;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: grid;
+    place-content: center;
+	margin-right: 10px;
+}
+
+.meal2 .heart path{
+	color: #417028
+}
+
+
+.meal2 .heart{
+	height: 30px;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: grid;
+    place-content: center;
+	margin-right: 10px;
+}
+
+
+.meal4 .heart path{
+	color: #417028
+}
+
+
+.meal4 .heart{
+	height: 30px;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: grid;
+    place-content: center;
+	margin-right: 10px;
+}
+
+
+/*food info*/
+
+.carousel-inner .carousel-item h6{
+	color: #fff;
+	font-weight: 600
+}
+
+.carousel-inner .carousel-item span{
+	color: #de6313;
+	
+}
+
+
+.carousel-inner .carousel-item .row{
+	margin-top: 50px
+	
+}
+
+
+
+.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+    top: 350px;
+	
+}
+
+
+
+/*start media query*/
+
+
+@media (min-width: 1110px) and (max-width: 1200px){
+	
+	.foodkindcon {
+    clear: right;
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+	}
+	
+	
+.imgbg {
+   height: 230px;
+    width: 230px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 114px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.types {
+    position: absolute;
+    align-items: center;
+    place-items: center;
+    text-align: inherit;
+    left: 30%;
+}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1042px) and (max-width: 1109px){
+	
+	.foodkindcon {
+    clear: right;
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+	}
+	
+	
+.imgbg {
+    height: 190px;
+    width: 190px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 131px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 220px;
+    width: 220px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+@media (min-width: 992px) and (max-width: 1041px){
+	
+	.foodkindcon {
+    clear: right;
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+	}
+	
+	
+.imgbg {
+    height: 190px;
+    width: 190px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 131px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 220px;
+    width: 220px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 260px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 260px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+	.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: 340px;
+    top: 38px;
+    float: right;
+    clear: left;
+    width: 400px;
+    text-align: left;
+}
+	
+
+	
+}
+
+@media (min-width: 940px) and (max-width: 990px){
+	
+	
+		.foodkindcon {
+    clear: right;
+    width: 400px;
+    float: left;
+    margin-left: 80px;
+	}
+	
+	
+.imgbg {
+    height: 190px;
+    width: 190px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 131px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 220px;
+    width: 220px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 210px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 210px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+	.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: 340px;
+    top: 38px;
+    float: right;
+    clear: left;
+    width: 400px;
+    text-align: left;
+}
+	
+
+.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+    top: 350px;
+	left: 380px;
+	
+}
+
+	
+	
+	
+}
+
+
+
+
+
+@media (min-width: 860px) and (max-width: 939px){
+	
+	
+		.foodkindcon {
+    clear: right;
+    width: 400px;
+    float: left;
+    margin-left: 80px;
+	}
+	
+	
+.imgbg {
+    height: 190px;
+    width: 190px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 131px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 220px;
+    width: 220px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 210px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 210px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+	.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: 340px;
+    top: 38px;
+    float: right;
+    clear: left;
+   width: 320px;
+    text-align: left;
+}
+
+	.carousel-item p {
+    color: #ada8a8;
+		font-size: 14px;
+		width: 250px;
+}
+	
+	.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+    top: 350px;
+	left: 375px;
+	
+}
+
+	
+	
+}
+
+
+
+
+@media (min-width: 797px) and (max-width: 859px){
+	
+	
+		.foodkindcon {
+    clear: right;
+    width: 400px;
+    float: left;
+    margin-left: 80px;
+	}
+	
+	
+.imgbg {
+    height: 190px;
+    width: 190px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 131px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 220px;
+    width: 220px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 210px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 210px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+	.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: 340px;
+    top: 38px;
+    float: right;
+    clear: left;
+   width: 260px;
+    text-align: left;
+}
+
+	.carousel-item p {
+    color: #ada8a8;
+		font-size: 14px;
+		width: 250px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		
+	}
+	
+	
+	.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+    top: 350px;
+	left: 365px;
+	
+}
+	
+	
+}
+
+
+
+
+
+@media (min-width: 650px) and (max-width: 796px) {
+	
+	
+		.foodkindcon {
+    clear: right;
+    width: 350px;
+    float: left;
+    margin-left: 130px;
+	}
+	
+	
+.imgbg {
+    height: 190px;
+    width: 190px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 131px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 220px;
+    width: 220px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 280px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 280px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: -120px;
+    top: 357px;
+    /* float: right; */
+    /* clear: left; */
+    width: 247px;
+    text-align: left;
+    /* overflow: hidden; */
+}
+
+.carousel-item p {
+    color: #ada8a8;
+    font-size: 14px;
+    width: 238px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		margin-top: 0px!important
+		
+	}
+	
+	
+	.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+    top: 440px;
+	left: 175px;
+	
+}
+	
+	
+}
+
+
+
+
+
+@media (min-width: 590px) and (max-width: 649px) {
+	
+	
+		.foodkindcon {
+    clear: right;
+    width: 275px;
+    float: left;
+    margin-left: 130px;
+	}
+	
+	
+.imgbg {
+    height: 190px;
+    width: 190px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 131px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 220px;
+    width: 220px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 210px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 210px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: -120px;
+    top: 357px;
+    /* float: right; */
+    /* clear: left; */
+    width: 247px;
+    text-align: left;
+    /* overflow: hidden; */
+}
+
+.carousel-item p {
+    color: #ada8a8;
+    font-size: 14px;
+    width: 238px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		margin-top: 0px!important
+		
+	}
+	
+	
+	.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+    top: 440px;
+	left: 140px;
+	
+}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 510px) and (max-width: 589px) {
+	
+	
+		.foodkindcon {
+    clear: right;
+    width: 275px;
+    float: left;
+    margin-left: 90px;
+	}
+	
+	
+.imgbg {
+    height: 150px;
+    width: 150px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 36px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 180px;
+    width: 180px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 210px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 210px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: -120px;
+    top: 220px;
+    /* float: right; */
+    /* clear: left; */
+    width: 200px;
+    text-align: left;
+    /* overflow: hidden; */
+}
+
+.carousel-item p {
+    color: #ada8a8;
+    font-size: 14px;
+    width: 198px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		margin-top: 0px!important
+		
+	}
+	
+	
+.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+    top: 440px;
+	left: 15px;
+	
+}
+	
+	
+	
+	.container{
+		width: 470px;
+	}
+	
+
+	
+	
+	.carousel-inner .row div{
+		
+		display: inline-flex;
+	}
+	
+	
+.carousel-inner .carousel-item h6{
+		margin-right: 5px
+	}
+
+.thebutton{
+    margin-left: 80px;
+	
+}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 509px) {
+	
+	
+	.foodkindcon {
+    clear: right;
+    width: 220px;
+    float: left;
+    margin-left: 90px;
+	}
+	
+	
+.imgbg {
+    height: 150px;
+    width: 150px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 36px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 180px;
+    width: 180px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 100px;
+    width: 180px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+	
+	.foodkind2 {
+    height: 100px;
+    width: 180px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 20px;}
+	
+	
+.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: -120px;
+    top: 220px;
+    /* float: right; */
+    /* clear: left; */
+    width: 200px;
+    text-align: left;
+    /* overflow: hidden; */
+}
+
+.carousel-item p {
+    color: #ada8a8;
+    font-size: 14px;
+    width: 198px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		margin-top: 0px!important
+		
+	}
+	
+	
+.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+    top: 440px;
+	left: 15px;
+	
+}
+	
+	
+	
+	.container{
+		width: 420px;
+	}
+	
+
+	
+	
+	.carousel-inner .row div{
+		
+		display: inline-flex;
+	}
+	
+	.carousel-inner .carousel-item h6{
+		margin-right: 5px
+	}
+
+.thebutton{
+    margin-left: 80px;
+	
+}
+	
+	
+	
+	.foodgallery img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+	
+	
+	
+	.leftside{
+		    width: 460px;
+	}
+	}
+
+
+
+
+
+
+@media (min-width: 420px) and (max-width: 449px) {
+	
+	
+	.foodkindcon {
+    clear: right;
+    width: 220px;
+    float: left;
+    margin-left: 70px;
+	}
+	
+	
+.imgbg {
+    height: 110px;
+    width: 110px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 18px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 130px;
+    width: 130px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 70px;
+    width: 180px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 7px;
+}
+	
+	.foodkind2 {
+    height: 70px;
+    width: 180px;
+    background-color: #417028;
+    border-radius: 40px;
+		margin-bottom: 7px;
+	
+	
+	}
+	
+	.foodgallery h5{
+		
+		
+	font-size: 12px	
+		
+	}
+	
+	
+.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: -110px;
+    top: 220px;
+    /* float: right; */
+    /* clear: left; */
+    width: 200px;
+    text-align: left;
+	
+    /* overflow: hidden; */
+}
+
+.carousel-item p {
+    color: #ada8a8;
+    font-size: 14px;
+    width: 198px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		margin-top: 0px!important
+		
+	}
+	
+	
+.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+    top: 440px;
+	left: 15px;
+	
+}
+	
+	
+	
+.container {
+    width: 350px;
+}
+	
+
+	
+	
+	.carousel-inner .row div{
+		
+		display: inline-flex;
+	}
+	
+	.carousel-inner .carousel-item h6{
+		margin-right: 5px
+	}
+
+.thebutton{
+    margin-left: 80px;
+	
+}
+	
+	
+	
+	.foodgallery img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+	
+	
+	
+	.leftside{
+		    width: 460px;
+	}
+	}
+
+
+
+
+
+
+
+@media (min-width: 372px) and (max-width: 419px) {
+	
+	
+	.foodkindcon {
+    clear: right;
+    width: 190px;
+    float: left;
+    margin-left: 70px;
+		
+	}
+	
+	
+.imgbg {
+    height: 110px;
+    width: 110px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -2px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 130px;
+    width: 130px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 50px;
+    width: 110px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 7px;
+	text-align: center;
+		vertical-align: middle
+}
+	
+	.foodkind2 {
+    height: 50px;
+    width: 110px;
+    background-color: #417028;
+    border-radius: 40px;
+	margin-bottom: 7px;
+	text-align: center;
+		vertical-align: middle
+	
+	
+	}
+	
+	.heart{
+		display: none!important
+	}
+	
+	
+	
+	.foodgallery h5{
+		
+		
+	font-size: 12px	;
+	margin-bottom: 0px;
+		
+	}
+	
+	.foodgallery p{
+		
+		
+
+	margin-bottom: 0px;
+		
+	}
+	
+	
+.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: -100px;
+    top: 220px;
+    /* float: right; */
+    /* clear: left; */
+    width: 200px;
+    text-align: left;
+	
+    /* overflow: hidden; */
+}
+
+.carousel-item p {
+    color: #ada8a8;
+    font-size: 14px;
+    width: 198px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		margin-top: 0px!important
+		
+	}
+	
+	
+.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 130px;
+	height: 50px;
+	position: absolute;
+
+	top: 568px;
+	left: -75px;
+	
+}
+	
+	
+	
+.container {
+    width: 340px;
+}
+	
+
+	
+	
+	.carousel-inner .row div{
+		
+		display: inline-flex;
+	}
+	
+	.carousel-inner .carousel-item h6{
+		margin-right: 5px
+	}
+
+.thebutton{
+    margin-left: 85px;
+	
+}
+	
+	
+	
+	.foodgallery img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+		display: none
+}
+	
+	
+	
+	.leftside{
+		    width: 460px;
+	}
+	}
+
+
+
+
+
+
+
+@media /*(min-width: 310px) and */(max-width: 371px) {
+	
+	
+	.foodkindcon {
+    clear: right;
+    width: 130px;
+    float: left;
+    margin-left: 70px;
+		
+	}
+	
+	
+.imgbg {
+    height: 110px;
+    width: 110px;
+    background-color: #de6313;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -2px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    left: 4%;
+}
+	
+	.imgbg img {
+    height: 130px;
+    width: 130px;
+    max-height: 255px;
+    max-width: 255px;
+}
+	
+	
+	.foodkind {
+    height: 50px;
+    width: 110px;
+    background-color: #de6313;
+    border-radius: 40px;
+    margin-bottom: 7px;
+	text-align: center;
+		vertical-align: middle
+}
+	
+	.foodkind2 {
+    height: 50px;
+    width: 110px;
+    background-color: #417028;
+    border-radius: 40px;
+	margin-bottom: 7px;
+	text-align: center;
+		vertical-align: middle
+	
+	
+	}
+	
+	.heart{
+		display: none!important
+	}
+	
+	
+	
+	.foodgallery h5{
+		
+		
+	font-size: 12px	;
+	margin-bottom: 0px;
+		
+	}
+	
+	.foodgallery p{
+		
+		
+
+	margin-bottom: 0px;
+		
+	}
+	
+	
+.carousel-inner {
+    margin-top: 5px;
+    position: absolute;
+    left: -70px;
+    top: 220px;
+    /* float: right; */
+    /* clear: left; */
+    width: 200px;
+    text-align: left;
+	
+    /* overflow: hidden; */
+}
+
+.carousel-item p {
+    color: #ada8a8;
+    font-size: 14px;
+    width: 198px;
+}
+	
+	
+	.carousel-inner .row{
+		width: 240px;
+		margin-top: 0px!important
+		
+	}
+	
+	
+.thebutton{
+	margin-top: 50px;
+	border:none;
+	background-color: #de6313;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 130px;
+	height: 50px;
+	position: absolute;
+
+	top: 568px;
+	left: -75px;
+	
+}
+	
+	
+	
+.container {
+    width: 265px;
+}
+	
+
+	
+	
+	.carousel-inner .row div{
+		
+		display: inline-flex;
+	}
+	
+	.carousel-inner .carousel-item h6{
+		margin-right: 5px
+	}
+
+.thebutton{
+    margin-left: 85px;
+	
+}
+	
+	
+	
+	.foodgallery img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+		display: none
+}
+	
+	
+	
+	.leftside{
+		    width: 460px;
+	}
+	}
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media (max-width: 768px){
+	
+	.carousel-inner {
+    margin-top: 5px;
+    position: fixed;
+     left: 5%; 
+    top: 565px;
+
+    width: 400px;
+    text-align: left;
+}
+	.foodkindcon {
+    clear: right;
+    width: 400px;
+    float: left;
+		margin-left: 80px;}
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
